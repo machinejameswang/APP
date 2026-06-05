@@ -61,7 +61,7 @@ st.markdown("""
         color: #ffffff !important;
     }
 </style>
-""", unsafe_style_with_html=True)
+""", unsafe_allow_html=True)
 
 # -----------------------------------------------------------------------------
 # 2. 側邊欄設定：API 金鑰與模型資訊
@@ -91,8 +91,8 @@ st.sidebar.info(
 # -----------------------------------------------------------------------------
 # 3. 主頁面標題與作業資訊
 # -----------------------------------------------------------------------------
-st.markdown("<div class='main-title'>🎨 Cosmos3-Super-Text2Image 圖像生成器</div>", unsafe_style_with_html=True)
-st.markdown("<div class='sub-title'>使用 Streamlit + Hugging Face 打造的 AI 圖像生成系統</div>", unsafe_style_with_html=True)
+st.markdown("<div class='main-title'>🎨 Cosmos3-Super-Text2Image 圖像生成器</div>", unsafe_allow_html=True)
+st.markdown("<div class='sub-title'>使用 Streamlit + Hugging Face 打造的 AI 圖像生成系統</div>", unsafe_allow_html=True)
 
 # 作業基本資訊欄
 with st.expander("📝 HW3 作業連結與說明 (點擊展開)", expanded=True):
@@ -322,7 +322,7 @@ with tab3:
             </tr>
         </table>
     </div>
-    """, unsafe_style_with_html=True)
+    """, unsafe_allow_html=True)
     
     script_dir = os.path.dirname(os.path.abspath(__file__))
     apk_path = os.path.join(script_dir, "jameswangAPP 1.0", "android", "app-release.apk")
@@ -359,4 +359,4 @@ with tab3:
 # -----------------------------------------------------------------------------
 # 5. 頁尾
 # -----------------------------------------------------------------------------
-st.markdown("<div class='footer'>© 2026 Cosmos3-Super-Text2Image Streamlit App. All rights reserved.</div>", unsafe_style_with_html=True)
+st.markdown("<div class='footer'>© 2026 Cosmos3-Super-Text2Image Streamlit App. All rights reserved.</div>", unsafe_allow_html=True)
