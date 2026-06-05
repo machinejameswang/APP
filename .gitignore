@@ -1,0 +1,20 @@
+# Exclude zip files and executables
+*.zip
+*.exe
+
+# OS specific files
+desktop.ini
+.DS_Store
+
+# Streamlit config / cache
+.streamlit/
+
+# Temporary scratch files
+code_artifact.html
+cosmos3_image_generator.tsx
+
+# Python cache files
+__pycache__/
+*.pyc
+
+
